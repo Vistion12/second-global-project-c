@@ -1,3 +1,7 @@
+void  crush() {
+	return v;
+}
+
 
 void initVoid(void v) {
 	cin >> v;
