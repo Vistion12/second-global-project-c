@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void  crush() {
 	return v;
 }
@@ -13,6 +14,17 @@ void initP(int* p) {
 
 
 
+=======
+void initvoid(void* p, strig type) {
+	if (type == "int") {
+		cin >> (int*)p;
+	}
+}
+void initP(int* p) {
+	cin >> *p;
+}
+
+>>>>>>> fix
 int main(){
 	cout << "hello world";
 }
